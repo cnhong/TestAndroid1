@@ -23,6 +23,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
+				//(誰呼叫，顯示訊息，時間長短)
 				Toast.makeText(v.getContext(), "Toast", Toast.LENGTH_SHORT).show();
 			}
 		});

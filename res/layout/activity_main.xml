@@ -16,7 +16,8 @@
         android:layout_height="190dp"
         android:layout_weight="0.82"
         android:src="@drawable/demo"
-        android:layout_gravity="center" />
+        android:layout_gravity="center" 
+        />
 
     <Button
         android:id="@+id/button1"
