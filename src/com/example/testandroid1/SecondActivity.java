@@ -30,7 +30,7 @@ public class SecondActivity extends Activity {
 		final Bundle bundle=new Bundle();
 		textaccount=(EditText)findViewById(R.id.EditText02);
 		textpassword=(EditText)findViewById(R.id.EditText01);
-        checkbutton=(Button)findViewById(R.id.button1);
+        checkbutton=(Button)findViewById(R.id.button3);
 		checkbutton.setOnClickListener(new OnClickListener() {
 			
 			@Override

@@ -51,7 +51,7 @@ public class MainActivity extends FragmentActivity {
 				// TODO Auto-generated method stub
                 //跳轉下頁intebt(a,b)--a頁跳到b頁				
 				Intent nextIntent=new Intent(MainActivity.this, SecondActivity.class);
-				startActivityForResult(nextIntent, EDIT);
+				startActivity(nextIntent);
 			}
 		});
         changebutton = (Button)findViewById(R.id.button2);
